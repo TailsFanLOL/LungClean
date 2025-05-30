@@ -2,10 +2,10 @@
 title: "LungClean"
 author: "ApertureUA"
 description: "A fan that sucks out soldering fumes, with a screen for complexity points"
-created_at: "2025-05-25"
+created_at: "2025-05-24"
 ---
 
-# May 25-th: Idea
+# May 24-th: Idea
 
 Tell @TheEternalComrade that his idea is now OUR property. We aren't teaming, I just permanently borrowed it.  
 Anyways, here's a little sketch I made on my ARM Chromebook with pmOS: ![hm](images/sketch.png)  
@@ -20,7 +20,7 @@ I sure do hope that a Noctua fan is "economically efficient" enough. Haven't dec
 
 **Time wasted: ~4 hours (or 15m excluding being zoned out).**
 
-# May 26-28: 3D modeling and hardware picks
+# May 25-28: 3D modeling and hardware picks
 ### (i am sorry of my humor doesn't work and I am stuck with the same patterns, that's what happens when you journal near bedtime but not quite)
 First I tried getting FreeCAD running (because software freedom) but it just hangs when opening an example file.  
 So I signed up for OnShape and began working. I downloaded some models from GrabCAD for reference purposes which I can't show due to the license agreement.  
