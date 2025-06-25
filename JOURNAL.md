@@ -5,6 +5,8 @@ description: "A fan that sucks out soldering fumes, with a screen for complexity
 created_at: "2025-05-24"
 ---
 
+**Total time wasted: 35.4 hours**
+
 # May 24-th: Idea
 
 Tell @TheEternalComrade that his idea is now OUR property. We aren't teaming, I just permanently borrowed it.  
@@ -50,7 +52,7 @@ Sooo, we are going with a blue pill compatible STM32F103C8T6 with M*cro-USB + ex
 I already have a cut off barrel plug with a piece of a USB-A port on it because of failed TV-box shenanigans. And I think I will put a schottky and a zener for some protection. Safety first!
 
 As you could tell, there are no screw holes. That's right, friction and hot glue. And the bottom cover/base is just sticks sticking out.  
-![erm what the σ](images/base.png)
+![erm what the σ](images/base.png)  
 Screws are actually at my local bazaar for like 0.2 to 2 UAH depending on size, and 1 UAH is currently ~0.024 freedoms, but ain't no fun in that. I don't want screws sticking out. ***AESTHETIC***.  
 Fillet, fillet, fillet. For those reading still unaware what that means, it's basically making diagonals in place of a straight 90 degree turn. And I put that everywhere I could.  
 Now, I was already paranoid that the sticks of my base aren't strong enough and filleting the outside would reduce the amount of plastic there. Plus not enough weight at base.  
@@ -61,12 +63,41 @@ Yes, this took me [roughly the span of time it takes for our planet, Terra, also
 
 **Time wasted: ~18 hours (inaccurate estimate, zoning out excluded this time)**
 
-# May 30-th
+# May 30-th: Nothing
 I took a break.
+
 **Time wasted: ~0 hours**
 
-# May 31-st: journaling
+# May 31-st: Journaling
 I spent some time writing this journal, taking screenshots and *also* taking a break.  
 Actually, due to the lack of feeling of fulfillment from the last day, I did various kinds of crimes against myself, including stuffing myself with sugars all the way up.  
 I still have a README and a local BOM to go before submission to Highway.
+
 **Time wasted: ~1 hour**
+
+# June 2nd: Text Adventure
+![label](images/label.png)  
+This info label took me an unreasonable amount of time.  
+First, I got Unifont the epic 16px bitmap pixel font and looked for the perfect symbols to signal "center postive DC".  
+Go into InkScape, make a small image, export as SVG, import into OnShape. You can't use SVGs in OnShape sketches, for some reason. Rasterize. You can't extrude or reference bitmaps in sketches, they are reference only.  
+Vectorize it by finding some obscure pixel art converter (forgot link and it took me an hour, sorry, good luck) that makes an SVG with square <rect>s, then put it back into InkScape, then export as DXF.  
+Import into OnShape, use in sketch. Attempt moving it. Apparently there are no constraints. Fuck me sideways.  
+Manually select lines on each row and column to put in the parallel constraints then select everything and put in the equal constraints. Try moving. Then I realize that the points of each square aren't constrained either.  
+Instead of trying to manually constrain all points I gave up, fiddled around to select the squares but not the other parts of the sketch, then just dragged the whole thing away, then I used the transform tool to resize it, dragged it back.  
+And, it's apparently mathematically impossible to share an edge between cutouts, as that would require an inifitely small amount of material as well ass infinite precision, so the universe will collapse under the stress of bitmap text.  
+To combat this, I tried using every single tool from the quickbar. Yes, all of them. None helped or resulted in something that I would want.  
+The solution is to make the extrution 1 degree tilted. Yes, really. There's no other way. And now dust will get stuck in the hole but I am not gonna change it because of how much time it took me to get there.
+
+**Time wasted: ~4 hours** (I've been needing to shit for the past 4 hours)
+
+# June 1-18th: Dissapointment
+I got banned :yay:. Rowan said he can pitch for me. And I forgot about this project. Everything even the slightliest bit productive, too. Clicked some extremely inefficiently rendered virtual circles for entertainment instead.
+
+**Time wasted: ~0.4 hours**
+# June 19-25th: Clean up and discovery
+Making the BOM, README, journaling, all that kind of stuff. And the new illustration for wiring. I was too lazy to grab the tablet so I used my mouse this time. 
+Also, I double-clicked a .stl file, which opened FreeCAD. And it actually worked. Which hanged on me before.  
+Which means that instead of hot turky style learning a server based tool that might not even exist one day then exporting into another file format with a lot of data loss,  
+I could have just used the FOSS alternative the whole time. Gawd matherfacking dayum.  
+
+**Time wasted: ~8 hours**
