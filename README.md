@@ -1,6 +1,6 @@
 # LungClean
 ### A sucky airy thingy for soldering fumes. Sucks harder than your ex!  
-![images/overview.png]  
+![overview.png](images/overview.png)  
 
 ## Q&A
 ### But... ...why?
@@ -12,7 +12,7 @@ You plug in a barrel plug, turn knob to change sucking power and see RPM + stats
 Oh, and almost forgot to mention, there's a slot for a carbon filter.  
 ...that's it. That's the whole goddamn thing.
 ### How do I wire it?
-![images/wiring.png]
+![The awaited](images/wiring.png)
 ### Where firmware?
 Not yet.
 ### License?
