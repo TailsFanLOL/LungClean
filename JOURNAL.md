@@ -101,3 +101,10 @@ Which means that instead of hot turky style learning a server based tool that mi
 I could have just used the FOSS alternative the whole time. Gawd matherfacking dayum.  
 
 **Time wasted: ~8 hours**
+
+# June 26-28th: Rowan, what the fuck
+Bruv pretened to be offline while talking about puppy OC comissions in slack
+
+gigicat pitched for me, all hail gigicat
+
+**Time wasted: ~0 hours**
